@@ -1,0 +1,22 @@
+{
+  "name": "heavenlyhangman",
+  "version": "1.0.0",
+  "description": "nodeJS homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laethaka/HeavenlyHangman.git"
+  },
+  "author": "Jesse",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laethaka/HeavenlyHangman/issues"
+  },
+  "homepage": "https://github.com/Laethaka/HeavenlyHangman#readme",
+  "dependencies": {
+    "inquirer": "^5.2.0"
+  }
+}
