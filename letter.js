@@ -9,16 +9,18 @@ var Letter = function(trueVal) {
         };
     };
     this.checkVal = function(userGuess) {
-        if (userGuess === this.trueVal && !this.isRevealed) {//REVEALING LETTER
+        if (userGuess === this.trueVal && !this.isRevealed || userGuess.toUpperCase() === this.trueVal && !this.isRevealed) {//REVEALING LETTER
             this.isRevealed = true;
             this.displayVal();
+            return 'HIT'
+            // console.log(userGuess)
         };
     };
 };
 
-// var firstLetter = new Letter('x');
+// var firstLetter = new Letter('X');
 // console.log(firstLetter)
-// firstLetter.checkVal('e');
+// firstLetter.checkVal('x');
 
 // console.log(firstLetter)
 
